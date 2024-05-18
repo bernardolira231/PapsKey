@@ -14,6 +14,9 @@
 		9F97086B2BF3E89D00D199D1 /* PapsKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F97086A2BF3E89D00D199D1 /* PapsKeyTests.swift */; };
 		9F9708752BF3E89D00D199D1 /* PapsKeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9708742BF3E89D00D199D1 /* PapsKeyUITests.swift */; };
 		9F9708772BF3E89D00D199D1 /* PapsKeyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9708762BF3E89D00D199D1 /* PapsKeyUITestsLaunchTests.swift */; };
+		9F9708842BF7A09900D199D1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9708832BF7A09900D199D1 /* LoginView.swift */; };
+		9F9708862BF7A55200D199D1 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9708852BF7A55200D199D1 /* RegisterView.swift */; };
+		9F9708882BF7A7DC00D199D1 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9708872BF7A7DC00D199D1 /* UserManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		9F9708702BF3E89D00D199D1 /* PapsKeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PapsKeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9708742BF3E89D00D199D1 /* PapsKeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapsKeyUITests.swift; sourceTree = "<group>"; };
 		9F9708762BF3E89D00D199D1 /* PapsKeyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapsKeyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F9708832BF7A09900D199D1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9F9708852BF7A55200D199D1 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		9F9708872BF7A7DC00D199D1 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				9F97085B2BF3E89B00D199D1 /* ContentView.swift */,
 				9F97085D2BF3E89D00D199D1 /* Assets.xcassets */,
 				9F97085F2BF3E89D00D199D1 /* Preview Content */,
+				9F9708832BF7A09900D199D1 /* LoginView.swift */,
+				9F9708852BF7A55200D199D1 /* RegisterView.swift */,
+				9F9708872BF7A7DC00D199D1 /* UserManager.swift */,
 			);
 			path = PapsKey;
 			sourceTree = "<group>";
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F9708842BF7A09900D199D1 /* LoginView.swift in Sources */,
+				9F9708862BF7A55200D199D1 /* RegisterView.swift in Sources */,
 				9F97085C2BF3E89B00D199D1 /* ContentView.swift in Sources */,
+				9F9708882BF7A7DC00D199D1 /* UserManager.swift in Sources */,
 				9F97085A2BF3E89B00D199D1 /* PapsKeyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -425,11 +437,13 @@
 				DEVELOPMENT_TEAM = E883ZH2X2Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +468,13 @@
 				DEVELOPMENT_TEAM = E883ZH2X2Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

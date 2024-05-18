@@ -1,0 +1,81 @@
+
+# Xcode
+#
+build/
+DerivedData/
+.idea/
+*.xcworkspace
+xcuserdata
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+# Swift Package Manager
+#
+Packages
+/.build/
+
+# Carthage
+#
+Carthage/Build/
+Carthage/Checkouts/
+Carthage/Pods/
+
+# CocoaPods
+#
+Pods/
+Podfile.lock
+Podfile~
+/.xcworkspace
+
+# Fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Code Coverage
+#
+*.xccoverage
+
+# Playgrounds
+#
+timeline.xctimeline
+playground.xcworkspace
+
+# Other
+#
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.swiftpm
+.xcfilelist
+
+# Archives
+#
+*.xcarchive
+
+# App Bundles
+#
+*.app
+*.app.dSYM
+
+# Symbols
+#
+*.symbols
+*.bcsymbolmap
+*.swiftsourceinfo
+
+# Signing
+#
+*.mobileprovision
+*.provisionprofile
+
+# Static Analysis
+#
+.xcresult
+
+# Simulator
+#
+*.simstate
